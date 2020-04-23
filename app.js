@@ -99,9 +99,10 @@ function buildBubbleChart(individual){
         }
 
         var data = [trace2];
-
+           
         var layout ={
-            title:'Bubble Chart'
+            
+            xaxis:{title:"OTU ID"}
         };
 
         Plotly.newPlot("bubble", data, layout );
